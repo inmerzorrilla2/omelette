@@ -1,0 +1,103 @@
+/*Google Fonts: Outfit */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+
+
+body {
+  background-color: hsl(30, 54%, 90%); /* Color de fondo para todo el cuerpo */
+  padding-top: 100px; /* Espaciado superior para todo el contenido */
+  
+}
+
+
+.container {
+  background-color: #ffffff; /* Color de fondo para el contenedor */
+  margin: auto; /* Centrar el contenedor horizontalmente */
+  max-width: 800px; /* Ancho máximo para el contenedor */
+  border-radius: 20px; /* Radio de borde para el contenedor */
+  padding: 50px 50px 50px 50px; /* Espaciado interno para el contenedor */ 
+}
+
+
+img {
+  width: 730px; /* Ancho de la imagen */
+  border-radius: 10px; /* Radio de borde para las imagenes */
+  margin: 30px 30px 30px 30px; /* Espaciado para las imagenes */
+}
+
+
+/* Preparation time */
+.time {
+  background-color: #f3eef5; 
+  color: #0e0d0d; 
+  padding: 20px; 
+  border-radius: 10px; 
+  margin-top: 40px; 
+}
+
+  
+  ul {
+    margin-bottom: 20px; /* Espacio entre elementos li */
+  }
+
+  li {
+    margin-bottom: 15px; /* Agregar un margen inferior entre elementos de la lista */
+  }
+
+
+  .h2-a{
+    font-family: 'Outfit', sans-serif;
+    color: #9f77b6;
+    margin: 10px 20px 20px 20px;
+  
+  }
+
+/* Ingredients */
+  .t2 {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(14, 45%, 36%);
+    font-size: 30px;
+    padding-top: 20px;
+    margin: 10px 20px 20px 20px;
+  }
+
+ 
+  /* Nutrition */
+  table {
+  border-collapse: collapse; /* Combina los bordes de las celdas en una sola línea */
+  width: 100%; /* Ancho total de la tabla */
+  }
+
+  th, td {
+  border-bottom: 2px solid #ccc; /* Borde inferior más grueso */
+  padding: 12px 20px 10px 50px; /* Espaciado interno de las celdas */
+  text-align: left; /* Alineación del texto a la izquierda */
+  vertical-align: middle; /* Alineación vertical al centro */
+}
+
+
+footer {
+  background-color: #f3eef5; 
+  color: #0e0d0d; /* Texto blanco para mayor contraste */
+  padding: 20px; /* Espaciado interior */
+  border-radius: 10px; /* Radio de borde */
+  text-align: center; /* Alineación del texto al centro */
+  margin-top: 40px; /* Espaciado superior */
+}
+
+
+
+
+/* Colors 
+:root {
+  --color-nutmeg: hsl(14, 45%, 36%);
+  --color-dark-raspberry: hsl(332, 51%, 32%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-rose-white: hsl(330, 100%, 98%);
+  --color-eggshell: hsl(30, 54%, 90%);
+  --color-light-grey: hsl(30, 18%, 87%);
+  --color-wenge-brown: hsl(30, 10%, 34%);
+  --color-dark-charcoal: hsl(24, 5%, 18%);
+} */
+
+
+
